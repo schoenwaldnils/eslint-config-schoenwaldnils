@@ -39,6 +39,7 @@ module.exports = {
     'strict': 0,
     'prefer-template': 0,
     'consistent-return': 0,
+    'max-len': [1, { 'code': 120 }],
     'no-case-declarations': 0,
     'no-console': [
       'warn',
