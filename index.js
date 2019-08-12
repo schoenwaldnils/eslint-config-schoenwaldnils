@@ -1,12 +1,18 @@
 module.exports = {
-  extends: 'airbnb',
   parser: 'babel-eslint',
+  extends: [
+    'plugin:prettier/recommended',
+    'prettier/flowtype',
+    'prettier/react',
+    'prettier/standard',
+  ],
   plugins: [
-    'react'
+    'react',
+    'prettier',
   ],
   settings: {
     react: {
-      'jsx-boolean-value': 'always'
+      'jsx-boolean-value': 'always',
     }
   },
   parserOptions: {
@@ -15,32 +21,10 @@ module.exports = {
     }
   },
   rules: {
-    'arrow-body-style': 0,
-    'jsx-a11y/anchor-is-valid': 0,
-    'jsx-a11y/label-has-for': [ 2, {
-      'components': [ 'Label' ],
-      'required': {
-        'some': [ 'nesting', 'id' ]
-      }
-    }],
-    'react/forbid-prop-types': 0,
-    'react/jsx-closing-bracket-location': [1, 'after-props'],
+    'import/prefer-default-export': 0,
     'react/jsx-boolean-value': 0,
-    'react/jsx-filename-extension': [
-      1,
-      {
-        'extensions': [
-          '.js',
-          '.jsx',
-        ],
-      },
-    ],
     'react/no-danger': 0,
     'strict': 0,
-    'prefer-template': 0,
-    'consistent-return': 0,
-    'max-len': [1, { 'code': 120 }],
-    'no-case-declarations': 0,
     'no-console': [
       'warn',
       { allow: [
@@ -48,11 +32,12 @@ module.exports = {
         'error'
       ]}
     ],
-    'no-param-reassign': ['error', { props: false }],
-    'no-underscore-dangle': 0,
-    'no-prototype-builtins': 0,
+    'prettier/prettier': 2
   },
   env: {
-    browser: true
+    node: true,
+    es6: true,
+    jest: true,
+    browser: true,
   }
 };
