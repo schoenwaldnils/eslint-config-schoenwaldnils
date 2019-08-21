@@ -24,6 +24,7 @@ module.exports = {
   rules: {
     'import/prefer-default-export': 0,
     'react/jsx-boolean-value': 0,
+    'react/jsx-props-no-spreading': 0,
     'react/no-danger': 0,
     'strict': 0,
     'no-console': [
