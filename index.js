@@ -3,7 +3,6 @@ module.exports = {
     'airbnb-typescript',
     'plugin:prettier/recommended',
     'prettier/flowtype',
-    'prettier/react',
     'prettier/standard',
   ],
   plugins: ['react', 'prettier'],
