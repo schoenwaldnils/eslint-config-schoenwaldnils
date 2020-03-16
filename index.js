@@ -5,7 +5,7 @@ module.exports = {
     'prettier/flowtype',
     'prettier/standard',
   ],
-  plugins: ['react', 'prettier'],
+  plugins: ['prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
