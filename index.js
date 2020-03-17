@@ -14,8 +14,9 @@ module.exports = {
   },
   rules: {
     'import/prefer-default-export': 0,
-    'react/jsx-boolean-value': 0,
-    'react/jsx-props-no-spreading': 0,
+    // 'react/jsx-boolean-value': 0,
+    // 'react/jsx-props-no-spreading': 0,
+    'react/prop-types': 0,
     // 'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
     'no-console': ['warn', { allow: ['warn', 'error'] }],
     'prettier/prettier': 2,
