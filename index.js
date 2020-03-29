@@ -6,7 +6,7 @@ module.exports = {
     'prettier/react',
     'prettier/standard',
   ],
-  plugins: ['react', 'prettier'],
+  plugins: ['react', 'react-hooks', 'prettier'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
