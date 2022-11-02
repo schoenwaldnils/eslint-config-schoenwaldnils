@@ -3,7 +3,7 @@ module.exports = {
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
     'plugin:jsx-a11y/recommended',
-    'prettier/react',
+    'prettier',
   ],
   plugins: ['react', 'react-hooks'],
   settings: {
@@ -16,4 +16,4 @@ module.exports = {
     'react/no-unescaped-entities': 0, // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unescaped-entities.md
     'react/jsx-filename-extension': ['error', { extensions: ['.jsx', '.tsx'] }],
   },
-};
+}
