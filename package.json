@@ -18,6 +18,16 @@
   },
   "homepage": "https://github.com/schoenwaldnils/eslint-config-schoenwaldnils#readme",
   "dependencies": {
-    "eslint-config-cellular": "5.0.0"
+    "@typescript-eslint/eslint-plugin": "5.42.0",
+    "@typescript-eslint/parser": "5.42.0",
+    "about-this-app": "1.1.1",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-filenames": "1.3.2",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-jsx-a11y": "6.6.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.31.10",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-simple-import-sort": "8.0.0"
   }
 }
