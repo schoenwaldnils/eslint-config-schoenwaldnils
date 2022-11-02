@@ -1,4 +1,4 @@
-const production = process.env.NODE_ENV === 'production';
+const production = process.env.NODE_ENV === 'production'
 
 module.exports = {
   parser: '@typescript-eslint/parser',
@@ -8,7 +8,7 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'plugin:import/typescript',
-    'prettier/@typescript-eslint',
+    'prettier',
   ],
   plugins: ['@typescript-eslint'],
   rules: {
@@ -16,4 +16,4 @@ module.exports = {
     'react/destructuring-assignment': 0,
     '@typescript-eslint/no-unused-vars': production ? 2 : 1,
   },
-};
+}
